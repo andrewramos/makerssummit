@@ -3,10 +3,15 @@ body {
 	background: #f8c23c url("../images/bg2.png"); 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   	Helvetica, Arial, "Lucida Grande", sans-serif;
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom: 100px;
   	padding: 0 0;
   }
+
+* {
+	-webkit-font-smoothing: antialiased;
+
+}
 
 header {
 }
@@ -26,12 +31,47 @@ line-height: 36px;
 	margin: 0 auto;
 }
 
+nav {
+	height: 43px;
+	width: 930px;
+	background-color: #D6FAF2;
+	padding: 10px 0;
+	margin: 0 15px -25px 15px;
+}
+
+nav ul {
+	float: left;
+	margin: 0;
+	padding: 0 30px;
+	text-align: justify;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 45px; 
+}
+
+nav a {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-weight: bold;
+	font-style: uppercase;
+	font-size: 16px;
+	color: #65A092;
+	text-decoration: none;
+}
+
+nav a:hover { 
+	color: #4B8376;
+}
+
 .main-header {
 /*	width: 100%;
 */	background-color: #fff;
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
-	margin: 20px 0 20px 0;
+	margin: 0 0 20px 0;
 	padding: 60px;
 }
 
@@ -40,10 +80,11 @@ line-height: 36px;
 }
 
 .main-header h1 {
-	color: #4a3e21;
+	color: #4FC0A6;
 	font-size: 21px;
 	line-height: 1.6em;
-	padding: 40px 0 0 320px;
+	padding: 0px 0 0 0;
+	font-weight: lighter;
 }
 
 .main-header span {
@@ -52,6 +93,28 @@ line-height: 36px;
 	font-weight: 700;
 	font-weight: bold;
 	font-style: uppercase;
+}
+
+.button {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-weight: bold;
+	font-style: uppercase;
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 3px;
+}
+
+.conf {
+	color: #FFF;
+	background-color: #000;
+	margin-right: 20px;
+}
+
+.party {
+	color: #1E6454;
+	background-color: #7DCCBA;
 }
 
 .video {
@@ -76,29 +139,26 @@ line-height: 36px;
 
 .one {
 	width: 32%;
-	height: 200px;
-	background-color: #fff;
-	display: inline-block;
-	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 20px 0 20px 0;
 }
 
 .two {
 	width: 64%;
-	height: 200px;
-	background-color: #fff;
-	display: inline-block;
-	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 20px 0 20px 0;
 }
 
 .three {
 	width: 100%;
-	height: 200px;
-	background-color: #fff;
+	margin: 20px 0 20px 0;
+}
+
+.box {
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
-	margin: 20px 0 20px 0;
+}
+
+.height {
+	height: 200px;
 }
 
 
