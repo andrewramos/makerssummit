@@ -28,12 +28,11 @@ line-height: 36px;
 
 .main-header {
 /*	width: 100%;
-*/	background-color: rgba(0,0,0,.0);
+*/	background-color: #fff;
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 20px 0 20px 0;
 	padding: 60px;
-	border: solid 2px #fff;
 }
 
 .main-header img {
@@ -41,10 +40,11 @@ line-height: 36px;
 }
 
 .main-header h1 {
-/*color: #4a3e21;*/
-	color: #fff;
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	color: #4a3e21;
 	font-size: 21px;
-	font-weight: lighter;
 	line-height: 1.6em;
 	padding: 40px 0 0 320px;
 }
