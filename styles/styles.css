@@ -40,9 +40,6 @@ line-height: 36px;
 }
 
 .main-header h1 {
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
-	font-weight: 700;
 	color: #4a3e21;
 	font-size: 21px;
 	line-height: 1.6em;
@@ -50,6 +47,9 @@ line-height: 36px;
 }
 
 .main-header span {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 700;
 	font-weight: bold;
 	font-style: uppercase;
 }
