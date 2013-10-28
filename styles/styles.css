@@ -116,15 +116,14 @@ nav a:hover {
 
 
 .conf {
-	color: #FFF;
-	background-color: #000;
+	color: #6B5718;
+	background-color: #DFB43F;
 	text-decoration: none;
 	margin-right: 20px;
 }
 
 .conf:hover {
-	color: #FFF;
-	background-color: red;
+	background-color: #DAAF3A;
 }
 
 
@@ -135,8 +134,7 @@ nav a:hover {
 }
 
 .party:hover {
-	color: #1E6454;
-	background-color: red;
+	background-color: #74C5B3;
 }
 
 .video {
@@ -150,12 +148,14 @@ nav a:hover {
 	margin: 0;
 	padding: 0;
 	color: #B98D14;
+	font-size: 18px;
 }
 
 .text p {
 	margin: 5px 0 0 0;
 	padding: 0;
 	color: #92772C;
+	font-size: 14px;
 }
 
 .text {
@@ -168,12 +168,30 @@ nav a:hover {
 }
 
 .image-thumb:hover {
-	opacity: 50%;
+	opacity: 0.95;
 }
 
 .keynote {
 	height: 670px;
 	background-color: #fff;
+}
+
+.keynote img {
+ margin: 81px 51px 0 196px;
+}
+
+.keynote h1 {
+	text-align: center;	
+	color: #B98D14;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+.keynote span {
+	font-weight: bold;
+	font-size: 55px;
+	letter-spacing: 5px;
+	line-height: normal;
 }
 
 .panel {
