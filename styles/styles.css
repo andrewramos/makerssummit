@@ -172,7 +172,7 @@ nav a:hover {
 }
 
 .keynote {
-	height: 670px;
+	height: 763px;
 	background-color: #fff;
 }
 
@@ -194,9 +194,60 @@ nav a:hover {
 	line-height: normal;
 }
 
+.speakers {
+	margin: 50px 80px 50px 80px;
+}
+
+.name {
+	display: inline-block;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.name h2 {
+	font-size: 22px;
+}
+
+.profile {
+	background-size: 100% 100%;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+
+.jim {
+	background-image: url(../images/jim-gaffigan.jpg);
+}
+
+.tpain {
+	background-image: url(../images/tpain.jpg);
+}
+
+/*———————————————————————————————————————————*/
+
 .panel {
 	height: 350px;
 	background-color: #fff;
+}
+
+.panel img {
+	margin: 50px 100px 0 100px;
+}
+
+.panel h2 {
+	margin: 5px 0 0 0;
+	padding: 0;
+	color: #92772C;
+	font-size: 18px;
+	text-align: center;
+}
+
+.panel p {
+	margin: 5px 0 0 0;
+	padding: 0 50px;
+	color: #92772C;
+	font-size: 14px;
+	text-align: center;
 }
 
 .workshops {
