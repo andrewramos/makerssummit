@@ -16,11 +16,8 @@ body {
 header {
 }
 
-h1 {
-font-size: 30px;
-color: #4a3e21;
-line-height: 36px;
-}
+
+
 
 /*.video .one .two .three {
 	display: inline-block;
@@ -253,6 +250,46 @@ nav a:hover {
 .workshops {
 	height: 200px;
 	background-color: #D6FAF2;
+/*	padding: 50px;
+*/}
+
+.workshops h2 {
+	margin: 50px 0 0 50px;
+	padding: 0;
+	color: #1E5858;
+	font-size: 22px;
+}
+
+.workshops p {
+	margin: 5px 0px 0 50px;
+	width: 250px;
+}
+
+.workshop-options {
+	background-size: 100% 100%;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 100px;
+	margin: 50px;
+	margin-left: 0px;
+
+}
+
+.option1 {
+	background-image: url(../images/ron.png);
+}
+
+.option2 {
+	background-image: url(../images/harry.png);
+}
+
+.option3 {
+	background-image: url(../images/gilly.png);
+}
+
+.option4 {
+	background-image: url(../images/justin.png);
 }
 
 .sponsors {
@@ -262,10 +299,14 @@ nav a:hover {
 
 .venue {
 	height: 360px;
-	background-image: url(http://placekitten.com/360/360);
+	background-image: url(../images/huguenot.png);
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
+
+}
+
+.venue h2 {
 }
 
 .full{
