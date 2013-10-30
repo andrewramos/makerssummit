@@ -3,9 +3,9 @@ body {
 	background: #f8c23c url("../images/bg2.png"); 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   	Helvetica, Arial, "Lucida Grande", sans-serif;
-	margin-top: 80px;
 	margin-bottom: 100px;
-  	padding: 0 0;
+  	padding: 0;
+  	margin: 0;
   }
 
 * {
@@ -33,7 +33,7 @@ nav {
 	width: 930px;
 	background-color: #D6FAF2;
 	padding: 10px 0;
-	margin: 0 15px -25px 15px;
+	margin: 80px 15px -25px 15px;
 }
 
 nav ul {
@@ -68,7 +68,7 @@ nav a:hover {
 */	background-color: #fff;
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
-	margin: 0 0 10px 0;
+	margin: 0px 0 10px 0;
 	padding: 60px;
 }
 
@@ -297,7 +297,12 @@ nav a:hover {
 
 .sponsors {
 	height: 500px;
-	background-color: #fff;
+	background-color: #E4AF2B;
+	/*background-color: #F1B82A*/
+}
+
+.sponsors img {
+	margin-left: 160px;
 }
 
 .venue {
@@ -310,6 +315,8 @@ nav a:hover {
 }
 
 .venue h2 {
+	text-align: center;
+	vertical-align: middle;
 }
 
 .full{
@@ -353,10 +360,28 @@ nav a:hover {
 .bottom {
 	height: 200px;
 	width: 100%;
-	margin: 10px 0 10px 0;
-	background-color: #fff;
+	margin: 10px 0 0px 0;
+	position: relative;
 }
 
+.bottom img {
+	position: absolute;
+	bottom: 0;
+	left: -3px;
+}
+
+footer {
+	bottom: 30px;
+	background-color: #fff;
+	height: 30px;
+	margin: 0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
