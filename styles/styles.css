@@ -273,7 +273,10 @@ nav a:hover {
 	border-radius: 100px;
 	margin: 50px;
 	margin-left: 0px;
+}
 
+.workshops a:hover {
+	opacity: 0.85;
 }
 
 .option1 {
