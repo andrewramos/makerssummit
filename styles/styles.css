@@ -13,7 +13,11 @@ body {
 
 }
 
-header {
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 
@@ -72,19 +76,21 @@ nav a:hover {
 	padding: 60px;
 }
 
-.main-header img {
-	float: left;
+.main-header .logo {
+	width: 270px;
 }
 
-.main-header h1 {
+
+.intro {
 	color: #4FC0A6;
 	font-size: 21px;
 	line-height: 1.6em;
 	padding: 0px 0 0 0;
 	font-weight: lighter;
+	margin-bottom: 0;
 }
 
-.main-header span {
+.intro span {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -93,6 +99,20 @@ nav a:hover {
 }
 
 
+.date {
+	text-align: center;
+	text-transform: uppercase;
+	color: #BDA156;
+	width: 216px;
+	font-size: 16px;
+	line-height: 1.3em;
+	margin: 30px auto;
+	font-weight: lighter;
+}
+
+.date span {
+	font-weight: bold;
+}
 
 
 
@@ -117,6 +137,7 @@ nav a:hover {
 	background-color: #DFB43F;
 	text-decoration: none;
 	margin-right: 20px;
+	margin-top: 30px;
 }
 
 .conf:hover {
@@ -128,6 +149,7 @@ nav a:hover {
 	color: #1E6454;
 	background-color: #7DCCBA;
 	text-decoration: none;
+	margin-top: 30px;
 }
 
 .party:hover {
@@ -182,6 +204,7 @@ nav a:hover {
 	color: #B98D14;
 	font-size: 40px;
 	font-weight: lighter;
+	margin-bottom: 0;
 }
 
 .keynote span {
@@ -189,6 +212,14 @@ nav a:hover {
 	font-size: 55px;
 	letter-spacing: 5px;
 	line-height: normal;
+}
+
+.keynote p {
+	margin: 5px 0 0 0;
+	padding: 0 50px;
+	color: #92772C;
+	font-size: 14px;
+	text-align: center;
 }
 
 .speakers {
@@ -295,14 +326,18 @@ nav a:hover {
 	background-image: url(../images/justin.png);
 }
 
+.events {
+	height: 519px;
+	display: inline-block;
+	background-color: #fff;
+}
+
 .sponsors {
-	height: 500px;
-	background-color: #E4AF2B;
-	/*background-color: #F1B82A*/
+	margin-top: 20px;
 }
 
 .sponsors img {
-	margin-left: 160px;
+	margin-left: 65px;
 }
 
 .venue {
@@ -319,10 +354,62 @@ nav a:hover {
 	vertical-align: middle;
 }
 
+.newsletter {
+	height: 138px;
+	background-color: #fff;
+}
+
+.newsletter form {
+	margin: 20px;
+}
+
+.newsletter .email {
+	width: 185px;
+	height: 18px;
+	padding: 12px;
+	border-radius: 3px;
+	background-color: #f3f1e5;
+	border: none;
+	color: #817454;
+	font-family: "HelveticaNeue-Light";
+	font-size: 16px;
+	float: left;
+}
+
+.newsletter .email:focus {
+	background-color: #ECEADD;
+}
+
+.newsletter .button {
+	outline: none;
+	width: 100px;
+	height: 42px;
+	border-radius: 3px;
+	background-color: #ecd05d;
+	border: none;
+	color: #927d19;
+	font-family: "Helvetica", sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	float: left;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.newsletter .button:hover {
+	background-color: #E6CB5D;
+}
+
+.newsletter p {
+	color: #b7b18b;
+	font-family: "Helvetica";
+	font-size: 14px;
+	margin-bottom: 18px;
+	line-height: 1.3em;
+}
+
 .full{
 	width: 100%;
-	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
-	margin: 10px 0 10px 0;
 }
 
 .left {
@@ -335,16 +422,17 @@ nav a:hover {
 
 .one {
 	width: 37.5%;
-	margin: 10px 0 10px 0;
 }
 
 .two {
 	width: 60.4%;
-	margin: 10px 0 10px 0;
 }
 
 .three {
 	width: 100%;
+}
+
+.box-spacing {
 	margin: 10px 0 10px 0;
 }
 
