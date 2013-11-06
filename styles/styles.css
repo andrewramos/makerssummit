@@ -20,8 +20,31 @@ button:focus {
     outline: none;
 }
 
+h1 {
 
+}
 
+h2 {
+	margin: 0;
+	padding: 0;
+	color: #B98D14;
+	font-size: 22px;
+		/*font-size: 22px;
+*/
+}
+
+h3 {
+	color: #B98D14;
+	font-size: 18px;
+	margin: 15px 20px 2px 0px;
+}
+
+p {
+	margin: 0px 0 0 0;
+	padding: 0;
+	color: #92772C;
+	font-size: 16px;
+}
 
 /*.video .one .two .three {
 	display: inline-block;
@@ -76,7 +99,7 @@ nav a:hover {
 	padding: 60px;
 }
 
-.main-header .logo {
+.logo {
 	width: 270px;
 }
 
@@ -114,8 +137,6 @@ nav a:hover {
 	font-weight: bold;
 }
 
-
-
 .button {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
@@ -125,31 +146,20 @@ nav a:hover {
 	display: inline-block;
 	padding: 20px 40px;
 	border-radius: 5px;
-}
-
-
-
-
-
-
-.conf {
+	text-decoration: none;
+	margin-top: 30px;
 	color: #6B5718;
 	background-color: #DFB43F;
-	text-decoration: none;
-	margin-right: 20px;
-	margin-top: 30px;
 }
 
-.conf:hover {
+.button:hover {
 	background-color: #DAAF3A;
 }
-
 
 .party {
 	color: #1E6454;
 	background-color: #7DCCBA;
-	text-decoration: none;
-	margin-top: 30px;
+	margin-left: 20px;
 }
 
 .party:hover {
@@ -157,7 +167,6 @@ nav a:hover {
 }
 
 .video {
-	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	background-color: #fff;
 	margin-right: 0px;
 	float: left;
@@ -170,12 +179,12 @@ nav a:hover {
 	font-size: 18px;
 }
 
-.text p {
+/*.text p {
 	margin: 5px 0 0 0;
 	padding: 0;
 	color: #92772C;
 	font-size: 14px;
-}
+}*/
 
 .text {
 	padding: 30px;
@@ -254,37 +263,76 @@ nav a:hover {
 /*———————————————————————————————————————————*/
 
 .panel {
-	height: 350px;
 	background-color: #fff;
+	padding-bottom: 30px;
 }
 
 .panel img {
-	margin: 50px 100px 0 100px;
+	margin: 30px 100px 0 100px;
+	height: 25px;
+	width: 250px;
 }
 
-.panel h2 {
-	margin: 5px 0 0 0;
+.panel .text {
+	padding: 0	30px;
+}
+
+.hr {
+	height: 1px;
+	background: #F5F1D9;
+	width: 100%;
+	font-size: 1px;
+	margin-top: 22px;
+}
+
+
+/*.panel {
+/*	height: 350px;
+*/	/*background-color: #fff;
+}*/
+
+/*.panel img {
+	margin: 30px 100px 0 100px;
+	height: 25px;
+	width: 250px;
+}*/
+
+/*.panel div {
+	margin: 0px 10px 0px 30px;
+}
+*/
+/*.panel h2 {
+	margin: 0px 0 5px 0;
 	padding: 0;
 	color: #92772C;
 	font-size: 18px;
-	text-align: center;
+}
+*/
+
+
+
+/*.panel h3 {
+	color: #B98D14;
+	font-size: 18px;
+	margin: 15px 20px 0px 0px;
 }
 
 .panel p {
-	margin: 5px 0 0 0;
-	padding: 0 50px;
+	margin: 0px 0 0 0;
+	padding: 0 0;
 	color: #92772C;
 	font-size: 14px;
-	text-align: center;
 }
 
-.workshops {
-	height: 200px;
-	background-color: #D6FAF2;
-/*	padding: 50px;
-*/}
+.hr {
+	height: 1px;
+	background: red;
+	width: 100%;
+	font-size: 1px;
+}*/
 
-.workshops h2 {
+
+/*.workshops h2 {
 	margin: 50px 0 0 50px;
 	padding: 0;
 	color: #1E5858;
@@ -295,6 +343,48 @@ nav a:hover {
 	margin: 5px 0px 0 50px;
 	width: 250px;
 }
+*/
+
+.workshops h2, .workshops p, .workshops h3 {
+	color: #749B9B;
+} 
+
+.workshops {
+	height: 200px;
+	background-color: #D6FAF2;
+}
+
+.workshops .text {
+	width: 250px;
+}
+
+.workshop-options {
+	margin: 35px 23px;
+	width: 110px;
+	display: inline-block;
+	text-align: center;
+}
+
+.workshops img {
+	background-size: 100% 100%;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+
+.workshops h3 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+}
+
+.workshop-options:hover {
+	opacity: 0.95;
+}
+
+/*
 
 .workshop-options {
 	background-size: 100% 100%;
@@ -306,13 +396,10 @@ nav a:hover {
 	margin-left: 0px;
 }
 
-.workshops a:hover {
-	opacity: 0.85;
-}
 
 .option1 {
 	background-image: url(../images/ron.png);
-}
+}*/
 
 .option2 {
 	background-image: url(../images/harry.png);
@@ -343,11 +430,34 @@ nav a:hover {
 .venue {
 	height: 360px;
 	background-image: url(../images/huguenot.png);
+	-webkit-filter: grayscale(1);
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-
+	transition: all 0.5s ease;
+	font-size: 30px;
+	font-weight: bold;
 }
+
+.venue:hover {
+	-webkit-filter: grayscale(0);
+
+	transition: all 0.5s ease;
+}
+
+.address {
+	display: inline-block;
+	color: #fff;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.1), 0px 1px 1px rgba(0,0,0,0.2);
+	margin: 120px auto;
+	text-decoration: none;
+	width: 240px;
+}
+
+.address:hover {
+	opacity: 1;
+}
+
 
 .venue h2 {
 	text-align: center;
@@ -394,6 +504,7 @@ nav a:hover {
 	float: left;
 	margin-left: 10px;
 	padding: 0;
+	margin-top: 0;
 }
 
 .newsletter .button:hover {
