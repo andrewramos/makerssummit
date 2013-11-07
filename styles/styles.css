@@ -84,6 +84,7 @@ nav a {
 	font-size: 16px;
 	color: #65A092;
 	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 nav a:hover { 
@@ -150,6 +151,7 @@ nav a:hover {
 	margin-top: 30px;
 	color: #6B5718;
 	background-color: #DFB43F;
+	transition: all 0.2s ease;
 }
 
 .button:hover {
@@ -160,6 +162,7 @@ nav a:hover {
 	color: #1E6454;
 	background-color: #7DCCBA;
 	margin-left: 20px;
+	transition: all 0.2s ease;
 }
 
 .party:hover {
@@ -192,7 +195,7 @@ nav a:hover {
 
 .image-thumb {
 	margin: 0 25px 25px 25px;
-	opacity: 100%;
+	transition: all 0.2s ease;
 }
 
 .image-thumb:hover {
@@ -200,12 +203,12 @@ nav a:hover {
 }
 
 .keynote {
-	height: 763px;
 	background-color: #fff;
 }
 
-.keynote img {
- margin: 81px 51px 0 196px;
+.illustration img {
+ 	margin: 81px 51px 0 196px;
+ 	display: inline-block;
 }
 
 .keynote h1 {
@@ -232,12 +235,12 @@ nav a:hover {
 }
 
 .speakers {
-	margin: 50px 80px 50px 80px;
+	margin: 44px 30px;
 }
 
 .name {
 	display: inline-block;
-	margin-top: 150px;
+	margin-top: 15px;
 	text-align: center;
 }
 
@@ -246,37 +249,41 @@ nav a:hover {
 }
 
 .profile {
+	width: 175px;
+	margin: 0 40px;
+	display: inline-block;
+}
+
+.profile img {
 	background-size: 100% 100%;
-	width: 100px;
-	height: 100px;
+	width: 175px;
 	border-radius: 100px;
 }
 
-.jim {
+/*.jim {
 	background-image: url(../images/jim-gaffigan.jpg);
 }
 
 .tpain {
 	background-image: url(../images/tpain.jpg);
 }
-
+*/
 /*———————————————————————————————————————————*/
 
 .panel {
 	background-color: #fff;
 	padding-bottom: 30px;
+	text-align: center;
 }
 
 .panel img {
 	margin: 30px 100px 0 100px;
-	height: 25px;
-	width: 250px;
 }
 
 .panel .text {
 	padding: 0	30px;
 }
-
+/*
 .hr {
 	height: 1px;
 	background: #F5F1D9;
@@ -284,7 +291,7 @@ nav a:hover {
 	font-size: 1px;
 	margin-top: 22px;
 }
-
+*/
 
 /*.panel {
 /*	height: 350px;
@@ -344,15 +351,15 @@ nav a:hover {
 	width: 250px;
 }
 */
-
-.workshops h2, .workshops p, .workshops h3 {
-	color: #749B9B;
-} 
-
-.workshops {
+.events {
 	height: 200px;
 	background-color: #D6FAF2;
 }
+
+/*.workshops h2, .workshops p, .workshops h3 {
+	color: #749B9B;
+} 
+
 
 .workshops .text {
 	width: 250px;
@@ -383,6 +390,58 @@ nav a:hover {
 .workshop-options:hover {
 	opacity: 0.95;
 }
+*/
+/*—————————*/
+
+.workshop h2, .workshop p, .workshop h3 {
+	color: #749B9B;
+} 
+
+.workshop {
+	background-color: #D6FAF2;
+
+}
+
+.workshop img {
+	background-size: 100% 100%;
+	width: 150px;
+	height: 150px;
+	background-color: #fff;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+
+.workshop h3 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+}
+
+.workshop .text {
+	width: 460px;
+	text-align: center;
+	margin: 30px auto 0 auto;
+	padding-bottom: 30px;
+}
+
+.workshop .options {
+	margin: 0 45px;
+	margin-bottom: 45px;
+}
+
+.workshops {
+	margin: 20px 45px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	transition: all 0.2s ease;
+}
+
+.workshops:hover {
+	opacity: 0.95;
+}
+
+
 
 /*
 
@@ -399,8 +458,6 @@ nav a:hover {
 
 .option1 {
 	background-image: url(../images/ron.png);
-}*/
-
 .option2 {
 	background-image: url(../images/harry.png);
 }
@@ -412,13 +469,15 @@ nav a:hover {
 .option4 {
 	background-image: url(../images/justin.png);
 }
+}*/
 
-.events {
+
+/*.events {
 	height: 519px;
 	display: inline-block;
 	background-color: #fff;
 }
-
+*/
 .sponsors {
 	margin-top: 20px;
 }
@@ -428,34 +487,42 @@ nav a:hover {
 }
 
 .venue {
-	height: 360px;
-	background-image: url(../images/huguenot.png);
-	-webkit-filter: grayscale(1);
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-	transition: all 0.5s ease;
-	font-size: 30px;
-	font-weight: bold;
+	height: 480px;
+	background-color: #fff;
 }
 
-.venue:hover {
+.huguenot {
+	height: 405px;
+	background: url(../images/huguenot.png) #fff no-repeat;
+	-webkit-filter: grayscale(1);
+	text-transform: uppercase;
+	text-align: center;
+	transition: all 0.2s ease;
+	font-size: 30px;
+	font-weight: bold;
+	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3);
+}
+
+.huguenot:hover {
 	-webkit-filter: grayscale(0);
 
-	transition: all 0.5s ease;
 }
 
 .address {
 	display: inline-block;
-	color: #fff;
-	text-shadow: 0px 0px 5px rgba(0,0,0,0.1), 0px 1px 1px rgba(0,0,0,0.2);
-	margin: 120px auto;
+	color: #B98D14;
+/*	text-shadow: 0px 0px 5px rgba(0,0,0,0.1), 0px 1px 1px rgba(0,0,0,0.2);
+*/	margin: 20px;
 	text-decoration: none;
-	width: 240px;
+	width: 160px;
+}
+
+.address a {
+	padding: 10px 2px;
 }
 
 .address:hover {
-	opacity: 1;
+	color: #A57D10;
 }
 
 
@@ -484,9 +551,10 @@ nav a:hover {
 	font-family: "HelveticaNeue-Light";
 	font-size: 16px;
 	float: left;
+	transition: all 0.2s ease;
 }
 
-.newsletter .email:focus {
+.newsletter .email:focus, .newsletter .email:active {
 	background-color: #ECEADD;
 }
 
@@ -505,6 +573,7 @@ nav a:hover {
 	margin-left: 10px;
 	padding: 0;
 	margin-top: 0;
+	transition: all 0.2s ease;
 }
 
 .newsletter .button:hover {
