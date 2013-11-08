@@ -352,45 +352,47 @@ nav a:hover {
 }
 */
 .events {
-	height: 200px;
 	background-color: #D6FAF2;
+	padding: 45px;
 }
 
-/*.workshops h2, .workshops p, .workshops h3 {
+.events h2, .events p, .events h3 {
 	color: #749B9B;
 } 
 
 
-.workshops .text {
+.events .text {
 	width: 250px;
-}
-
-.workshop-options {
-	margin: 35px 23px;
-	width: 110px;
-	display: inline-block;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.workshops img {
+.event-options {
+	margin: 25px 30px;
+	width: 225px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.events img {
 	background-size: 100% 100%;
-	width: 100px;
-	height: 100px;
+	width: 120px;
 	background-color: #fff;
 	border-radius: 100px;
 	margin-bottom: 10px;
 }
 
-.workshops h3 {
+.events h3 {
 	text-align: center;
 	font-size: 16px;
 	margin: 0;
 }
 
-.workshop-options:hover {
+.event-options:hover {
 	opacity: 0.95;
 }
-*/
+
 /*—————————*/
 
 .workshop h2, .workshop p, .workshop h3 {
@@ -491,15 +493,16 @@ nav a:hover {
 	background-color: #fff;
 }
 
+
 .huguenot {
 	height: 405px;
 	background: url(../images/huguenot.png) #fff no-repeat;
 	-webkit-filter: grayscale(1);
-	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
+	color: #000;
 	transition: all 0.2s ease;
-	font-size: 30px;
-	font-weight: bold;
+	font-size: 10px;
+	font-weight: lighter;
 	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3);
 }
 
@@ -525,7 +528,7 @@ nav a:hover {
 
 .address img {
 	border-radius: 40px;
-	padding: 14px;
+	margin: 14px;
 	float: right;
 	opacity: 0.5;
 }
@@ -565,7 +568,7 @@ nav a:hover {
 	transition: all 0.2s ease;
 }
 
-.newsletter .email:focus, .newsletter .email:active {
+.newsletter .email:focus, .newsletter .email:active, .newsletter .email:hover {
 	background-color: #ECEADD;
 }
 
@@ -587,7 +590,7 @@ nav a:hover {
 	transition: all 0.2s ease;
 }
 
-.newsletter .button:hover {
+.newsletter .button:hover, .newsletter .button:focus {
 	background-color: #E6CB5D;
 }
 
