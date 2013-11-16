@@ -46,6 +46,19 @@ p {
 	font-size: 16px;
 }
 
+a {
+	opacity: .8;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
+}
+
+a:hover {
+	opacity: 1;
+}
+
 /*.video .one .two .three {
 	display: inline-block;
 } 
@@ -64,27 +77,34 @@ nav {
 }
 
 nav ul {
-	float: left;
 	margin: 0;
-	padding: 1px 30px;
-	text-align: justify;
+	padding: 1px 0px;
+	text-align: center;
 }
 
 nav li {
 	display: inline-block;
-	padding: 0 34px; 
+	padding: 0px 60px 20px 60px;
+	border-right: solid rgba(115, 149, 158, 0.2) 1px;
+}
+
+nav li:last-child {
+	border-right: none;
 }
 
 nav a {
 	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
 	font-weight: 700;
-	font-weight: lighter;
+	font-weight: normal;
 	text-transform: uppercase;
 	font-size: 16px;
 	color: #65A092;
 	text-decoration: none;
-	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
 }
 
 nav a:hover { 
@@ -97,21 +117,20 @@ nav a:hover {
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 0px 0 10px 0;
-	padding: 60px;
+	padding: 70px;
 }
 
 .logo {
-	width: 270px;
+	width: 250px;
 }
 
 
 .intro {
 	color: #4FC0A6;
 	font-size: 21px;
-	line-height: 1.6em;
+	line-height: 1.4em;
 	padding: 0px 0 0 0;
-	font-weight: lighter;
-	margin-bottom: 0;
+	font-weight: normal;
 }
 
 .intro span {
@@ -131,7 +150,9 @@ nav a:hover {
 	font-size: 16px;
 	line-height: 1.3em;
 	margin: 30px auto;
-	font-weight: lighter;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .date span {
@@ -151,7 +172,11 @@ nav a:hover {
 	margin-top: 30px;
 	color: #6B5718;
 	background-color: #DFB43F;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .button:hover {
@@ -162,7 +187,11 @@ nav a:hover {
 	color: #1E6454;
 	background-color: #7DCCBA;
 	margin-left: 20px;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .party:hover {
@@ -177,6 +206,7 @@ nav a:hover {
 
 .text h2 {
 	margin: 0;
+	margin-bottom: 4px;
 	padding: 0;
 	color: #B98D14;
 	font-size: 18px;
@@ -191,15 +221,20 @@ nav a:hover {
 
 .text {
 	padding: 30px;
+	line-height: 1.3em;
 }
 
 .image-thumb {
 	margin: 0 25px 25px 25px;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .image-thumb:hover {
-	opacity: 0.95;
+	/*opacity: 0.95;*/
 }
 
 .keynote {
@@ -207,8 +242,8 @@ nav a:hover {
 }
 
 .illustration img {
- 	margin: 81px 51px 0 196px;
- 	display: inline-block;
+ 	margin: 100px auto 0 auto;
+	display: table-cell;
 }
 
 .keynote h1 {
@@ -277,7 +312,8 @@ nav a:hover {
 }
 
 .panel img {
-	margin: 30px 100px 0 100px;
+	margin: 30px auto 0 auto;
+	display: table-cell;
 }
 
 .panel .text {
@@ -390,7 +426,7 @@ nav a:hover {
 }
 
 .event-options:hover {
-	opacity: 0.95;
+	/*opacity: 0.95;*/
 }
 
 /*—————————*/
@@ -436,7 +472,11 @@ nav a:hover {
 	width: 150px;
 	display: inline-block;
 	text-align: center;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .workshops:hover {
@@ -500,10 +540,14 @@ nav a:hover {
 	-webkit-filter: grayscale(1);
 	text-align: left;
 	color: #000;
-	transition: all 0.2s ease;
 	font-size: 10px;
 	font-weight: lighter;
 	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3);
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .huguenot:hover {
@@ -513,8 +557,13 @@ nav a:hover {
 
 .address {
 	width: 360px;
-	opacity: 0.7;
-	transition: all 0.3s ease;
+	background-color: #fff;
+	/*opacity: 0.7;*/
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
 }
 
 .link {
@@ -535,7 +584,7 @@ nav a:hover {
 
 
 .address:hover {
-	opacity: 1;
+	/*opacity: 1;*/
 	background-color: #FDFAE8;
 }
 
@@ -565,7 +614,11 @@ nav a:hover {
 	font-family: "HelveticaNeue-Light";
 	font-size: 16px;
 	float: left;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .newsletter .email:focus, .newsletter .email:active, .newsletter .email:hover {
@@ -587,11 +640,17 @@ nav a:hover {
 	margin-left: 10px;
 	padding: 0;
 	margin-top: 0;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
 }
 
 .newsletter .button:hover, .newsletter .button:focus {
 	background-color: #E6CB5D;
+	outline: none;
+	border: 0;
 }
 
 .newsletter p {
