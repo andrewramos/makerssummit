@@ -116,6 +116,11 @@ nav a:hover {
 	color: #2F6458;
 }
 
+
+/*——— CONFERENCE ———*/
+
+
+
 .main-header {
 /*	width: 100%;
 */	background-color: #fff;
@@ -291,6 +296,16 @@ nav a:hover {
 .name {
 	margin-top: 15px;
 	text-align: center;
+	opacity: .8;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
+}
+
+.name:hover {
+	opacity: 1;
 }
 
 .name h2 {
@@ -314,6 +329,10 @@ nav a:hover {
 	background-size: 100% 100%;
 	width: 175px;
 	border-radius: 100px;
+}
+
+.name a {
+	text-decoration: none;
 }
 
 /*.jim {
@@ -437,7 +456,7 @@ nav a:hover {
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: #FAF9ED;
+	background-color: #F8EEC6;
 	padding: 25px 0;
 	text-align: center;
 }
@@ -545,17 +564,17 @@ nav a:hover {
 	width: 150px;
 	display: inline-block;
 	text-align: center;
-	-webkit-transition: all 0.2s ease;
+}
+
+/*	-webkit-transition: all 0.2s ease;
 	   -moz-transition: all 0.2s ease;
 	    -ms-transition: all 0.2s ease;
 	     -o-transition: all 0.2s ease;
 	        transition: all 0.2s ease;
-}
-
 .workshops:hover {
 	opacity: 0.95;
 }
-
+*/
 
 
 /*
@@ -593,38 +612,32 @@ nav a:hover {
 	background-color: #fff;
 }
 */
-.sponsors {
-	margin-top: 20px;
-}
-
-.sponsors img {
-	margin-left: 65px;
-}
 
 .venue {
 	height: 480px;
 	background-color: #fff;
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
 }
 
 
 .huguenot {
 	height: 405px;
-	background: url(../images/huguenot.png) #fff no-repeat;
-	-webkit-filter: grayscale(1);
+	background: url(../images/footerimage.png) #fff no-repeat;
 	text-align: left;
 	color: #000;
 	font-size: 10px;
 	font-weight: lighter;
 	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3);
-	-webkit-transition: all 0.2s ease;
-	   -moz-transition: all 0.2s ease;
-	    -ms-transition: all 0.2s ease;
-	     -o-transition: all 0.2s ease;
-	        transition: all 0.2s ease;
+
 }
 
-.huguenot:hover {
-	-webkit-filter: grayscale(0);
+.venue:hover {
+	-webkit-filter: grayscale(0.5);
 
 }
 
@@ -659,6 +672,7 @@ nav a:hover {
 .address:hover {
 	/*opacity: 1;*/
 	background-color: #FDFAE8;
+
 }
 
 
@@ -734,6 +748,164 @@ nav a:hover {
 	line-height: 1.3em;
 }
 
+
+/*——— CRAFT PARTY ———*/
+
+
+
+.craft-header {
+	background: url(../images/TBCPE-header.png) #fff no-repeat 0 -87px;
+	width: 100%;
+	height: 310px;
+	display: inline-block;
+	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
+	margin: 0px 0 10px 0;
+	position: relative;
+}
+
+/*.craft-header:after {	
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  content: '';
+ 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}*/
+
+
+.craft-header h1 {
+	font-size: 76px;
+	line-height: 1.0em;
+	padding: 37px;
+	margin: 0;
+	margin-right: 100%;
+	width: 50%;
+	color: #fff;
+	text-shadow: 0px 0px 12px rgba(0,0,0,0.3), 0px 1px 2px rgba(0,0,0,0.6);
+	display: inline-block;
+}
+
+.craft-button {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-weight: bold;
+	font-style: uppercase;
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #1E6454;
+	background-color: #7DCCBA;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
+}
+
+.craft-button:hover {
+	background-color: #74C5B3;
+}
+
+
+
+/*.craft-party .party {
+	margin-top: 0;
+}*/
+
+/*.craft-party {
+	margin: 0;
+	padding: 0;
+	margin-top: 262px;
+	margin-right: 30px;
+	float: right;
+
+}
+*/
+/*.craft-party {
+	color: #1E6454;
+	background-color: #7DCCBA;
+	margin-left: 20px;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
+}*/
+
+/*.craft-party:hover {
+	background-color: #74C5B3;
+}*/
+
+.slideshow {
+	background: url(../images/slider/DSC_0178.jpg) #fff no-repeat;
+	height: 360px;
+	display: inline-block;
+}
+
+.intro {
+	color: #4FC0A6;
+	font-size: 21px;
+	line-height: 1.4em;
+	padding: 0px 0 0 0;
+	font-weight: normal;
+}
+
+.about {
+	background-color: #fff;
+	height: 814px;
+	display: inline-block;
+}
+
+.about .illustration img {
+ 	margin: 100px auto 0 auto;
+	display: block;
+}
+
+.about .title {
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.about h1 {
+	font-weight: bold;
+	font-size: 55px;
+	line-height: normal;
+	color: #B98D14;
+	text-align: center;	
+	margin: 10px 0 -10px 0;
+}
+
+.about h2 {
+	color: #B98D14;
+	text-align: center;	
+	font-size: 40px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+
+.about p {
+	margin: 5px 0 0 0;
+	padding: 0 50px;
+	color: #92772C;
+/*	font-size: 14px;
+*/	text-align: center;
+	line-height: 1.4em;
+}
+
+
+/*——— STRUCTURE ———*/
+
 .full{
 	width: 100%;
 }
@@ -771,6 +943,40 @@ nav a:hover {
 	height: 200px;
 }
 
+
+/*——— BOTTOM ———*/
+
+
+.sponsors a {
+	opacity: 1;
+}
+
+.sponsors a:hover {
+}
+
+
+
+.sponsors {
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.sponsors img {
+	margin: 0 48px;
+	vertical-align: middle;
+	opacity: .8;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
+}
+
+.sponsors img:hover {
+	opacity: 1;
+}
+
 .bottom {
 	height: 200px;
 	width: 100%;
@@ -782,6 +988,10 @@ nav a:hover {
 	position: absolute;
 	bottom: 0;
 	left: -3px;
+}
+
+.bottom a {
+	opacity: 1;
 }
 
 footer {
