@@ -59,6 +59,11 @@ a:hover {
 	opacity: 1;
 }
 
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
 /*.video .one .two .three {
 	display: inline-block;
 } 
@@ -239,48 +244,64 @@ nav a:hover {
 
 .keynote {
 	background-color: #fff;
+	height: 814px;
 }
 
 .illustration img {
  	margin: 100px auto 0 auto;
-	display: table-cell;
+	display: block;
+}
+
+.keynote .title {
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 .keynote h1 {
-	text-align: center;	
-	color: #B98D14;
-	font-size: 40px;
-	font-weight: lighter;
-	margin-bottom: 0;
-}
-
-.keynote span {
 	font-weight: bold;
 	font-size: 55px;
-	letter-spacing: 5px;
 	line-height: normal;
+	color: #B98D14;
+	text-align: center;	
+	margin: 10px 0 -10px 0;
+}
+
+.keynote h2 {
+	color: #B98D14;
+	text-align: center;	
+	font-size: 40px;
+	font-weight: lighter;
+	margin-bottom: 10px;
 }
 
 .keynote p {
 	margin: 5px 0 0 0;
 	padding: 0 50px;
 	color: #92772C;
-	font-size: 14px;
-	text-align: center;
+/*	font-size: 14px;
+*/	text-align: center;
+	line-height: 1.4em;
 }
 
 .speakers {
-	margin: 44px 30px;
+	margin: 65px 30px;
 }
 
 .name {
-	display: inline-block;
 	margin-top: 15px;
 	text-align: center;
 }
 
 .name h2 {
 	font-size: 22px;
+	margin-bottom: 0px;
+}
+
+.name p {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
 }
 
 .profile {
@@ -306,19 +327,36 @@ nav a:hover {
 /*———————————————————————————————————————————*/
 
 .panel {
-	background-color: #fff;
+	background-color: #D3FFF5;
 	padding-bottom: 30px;
 	text-align: center;
 }
 
 .panel img {
-	margin: 30px auto 0 auto;
+	margin: 30px auto 20px auto;
 	display: table-cell;
 }
 
 .panel .text {
 	padding: 0	30px;
 }
+
+.panel p {
+	color: #80AAA8;
+}
+
+.panel h2 {
+	color: #A1CEC8;
+}
+
+.panel .text h3 {
+	color: #668A88;
+	font-size: 18px;
+	margin: 20px 0px 2px 0px;
+}
+
+
+
 /*
 .hr {
 	height: 1px;
@@ -388,12 +426,46 @@ nav a:hover {
 }
 */
 .events {
-	background-color: #D6FAF2;
-	padding: 45px;
+	background-color: #fff;
+	position: relative;
+	text-align: center;
+	padding: 85px 0 40px 0;
+}
+
+.events .title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #FAF9ED;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.events .title h2 {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 16px;
+	color: #C2AD78;
+
+}
+
+.events .title p {
+	display: inline-block;
+	padding-left: 5px;
+	color: #B9A861;
+}
+
+.hr {
+	height: 1px;
+	background: #F5F1D9;
+	width: 100%;
+	font-size: 1px;
+	margin-top: 22px;
 }
 
 .events h2, .events p, .events h3 {
-	color: #749B9B;
+	color: #B98D14;
 } 
 
 
@@ -404,8 +476,8 @@ nav a:hover {
 }
 
 .event-options {
-	margin: 25px 30px;
-	width: 225px;
+	margin: 25px 38px;
+	width: 210px;
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
@@ -422,7 +494,8 @@ nav a:hover {
 .events h3 {
 	text-align: center;
 	font-size: 16px;
-	margin: 0;
+	margin: 0 0 5px 0;
+	color: #B98D14;
 }
 
 .event-options:hover {
@@ -436,7 +509,7 @@ nav a:hover {
 } 
 
 .workshop {
-	background-color: #D6FAF2;
+	background-color: #EDFDFA;
 
 }
 
@@ -451,7 +524,7 @@ nav a:hover {
 
 .workshop h3 {
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
 	margin: 0;
 }
 
