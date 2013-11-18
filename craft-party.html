@@ -6,7 +6,7 @@
 	<style>
 		
 	</style>
-	
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<link rel=stylesheet href="styles/styles.css">
 	
 </head>
@@ -39,10 +39,40 @@
 	    	<img src="images/slider/CRX Si.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
 	    	<img src="images/slider/DSC_0178.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
 	    </div> -->
-		<div class="slideshow one box box-spacing"></div>
+		<div class="slideshow one box box-spacing">
+			<div class="fadein">
+				<img src="images/slider/indie1.jpg">
+				<img src="images/slider/indie2.jpg">
+				<img src="images/slider/indie3.jpg">
+				<img src="images/slider/indie4.jpg">
+				<img src="images/slider/indie5.jpg">
+				<img src="images/slider/indie6.jpg">
+				<img src="images/slider/indie7.jpg">
+			</div>
+			<div class="caption">
+				<p class="">Pictures from last years Craft Party, a one-day business conference for the art, craft, and design world. </p>
+			</div>
+		</div>
 
 		<div class="about two box box-spacing right">
-			
+			<div class="intro">
+				<h1>About this year's festival</h1>
+				<p>The party begins at 7:00 PM on March 1, and you don't have to attend the <a href="#">conference</a> to participate. The Best Craft Party Ever is a separate event designed simply to celebrate the fun of making and meeting other makers. You also don't have to be naturally crafty or artistically inclined to join us. We've designed the party so everyone&thinsp;&mdash;&thinsp;professional and newbie alike&thinsp;&mdash;&thinsp;can try their hand at something new.</p>
+
+				<p>This is the perfect time to learn something new or simply try your hand at a craft you've always wanted to make. Tickets are $50 per person (separate from the conference)  and include a complete dinner, craft supplies, access to letterpress and screen printing maker stations, plus the chance to make new friends who also love handmade.</p>
+
+				<!-- <p>7 - 8:30 pm   Dinner
+				A wonderful supper prepared and served by a local chef</p>
+
+				<p>8:30 -11:30 pm   Crafting
+				We'll have various projects on hand so that everyone can mingle and chat while making something too.</p>
+
+
+				<p>DIRECTIONS/MAP
+				The Certus Loft at the Huguenot Mill at the Peace Center
+				101 W. Broad Street
+				Greenville, SC 29601</p> -->
+			</div>
 		</div>
 
 		
@@ -72,7 +102,16 @@
 	
 	<footer class="group">
 	</footer>
-	
+	<script>
+		$(function(){
+		    $('.fadein img:gt(0)').hide();
+		    setInterval(function(){
+			      $('.fadein :first-child').fadeOut(1000)
+		         .next('img').fadeIn(1000)
+	         .end().appendTo('.fadein');}, 
+		      7000);
+		});
+	</script>
 
 </body>
 </html>

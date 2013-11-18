@@ -776,15 +776,18 @@ nav a:hover {
 
 
 .craft-header h1 {
-	font-size: 76px;
-	line-height: 1.0em;
-	padding: 37px;
+	font-size: 50px;
+	line-height: 1.2em;
+	padding: 65px;
+	padding-top: 56px;
 	margin: 0;
 	margin-right: 100%;
-	width: 50%;
-	color: #fff;
-	text-shadow: 0px 0px 12px rgba(0,0,0,0.3), 0px 1px 2px rgba(0,0,0,0.6);
+	width: 31%;
+	color: #FFFFFF;
 	display: inline-block;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+
 }
 
 .craft-button {
@@ -847,22 +850,68 @@ nav a:hover {
 }*/
 
 .slideshow {
-	background: url(../images/slider/DSC_0178.jpg) #fff no-repeat;
-	height: 360px;
+	height: 450px;
 	display: inline-block;
+	position:relative; 
+	background-color: #fff;
 }
 
-.intro {
+.caption {
+	padding: 17px 38px;
+	text-align: center;
+}
+
+.fadein { 
+	width:360px; 
+	height:360px; 
+}
+
+.fadein img { 
+	-webkit-filter: grayscale(1);
+	position:absolute; 
+	left:0; 
+	top:0; 
+/*	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;*/
+}
+
+.fadein img:hover {
+	-webkit-filter: grayscale(0.5);
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+
+
+.about .intro {
 	color: #4FC0A6;
 	font-size: 21px;
 	line-height: 1.4em;
-	padding: 0px 0 0 0;
+	padding: 65px;
 	font-weight: normal;
+}
+
+.about .intro a {
+	text-decoration: none;
+	color: #12705A;
+}
+
+.about .intro p {
+	color: #4FC0A6;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 .about {
 	background-color: #fff;
-	height: 814px;
 	display: inline-block;
 }
 
@@ -878,17 +927,15 @@ nav a:hover {
 }
 
 .about h1 {
+	color: #4F8A7C;
 	font-weight: bold;
-	font-size: 55px;
+	font-size: 30px;
 	line-height: normal;
-	color: #B98D14;
-	text-align: center;	
-	margin: 10px 0 -10px 0;
+	margin-bottom: 5px;
+	margin: 0;
 }
 
 .about h2 {
-	color: #B98D14;
-	text-align: center;	
 	font-size: 40px;
 	font-weight: lighter;
 	margin-bottom: 10px;
@@ -896,10 +943,6 @@ nav a:hover {
 
 .about p {
 	margin: 5px 0 0 0;
-	padding: 0 50px;
-	color: #92772C;
-/*	font-size: 14px;
-*/	text-align: center;
 	line-height: 1.4em;
 }
 
@@ -978,13 +1021,14 @@ nav a:hover {
 }
 
 .bottom {
-	height: 200px;
+	height: 160px;
 	width: 100%;
-	margin: 10px 0 0px 0;
+	margin: 40px 0 0px 0;
 	position: relative;
 }
 
 .bottom img {
+	display: inline-block;
 	position: absolute;
 	bottom: 0;
 	left: -3px;
@@ -992,13 +1036,35 @@ nav a:hover {
 
 .bottom a {
 	opacity: 1;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.bottom a:hover {
+	opacity: 0.7; 
+}
+
+.bottom .contact {
+	display: inline-block;
+	margin-left: 350px; 
+	color: #E6CB5D;
+}
+
+/*.bottom .contact a {
+}*/
 
 footer {
 	bottom: 30px;
 	background-color: #fff;
 	height: 30px;
 	margin: 0;
+}
+
+footer p {
+	padding-top: 7px;
+	font-size: 12px;
 }
 
 .group:after {
