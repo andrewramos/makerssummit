@@ -258,6 +258,7 @@ span.tooltip:after {
 
 .text {
 	padding: 30px;
+	padding-right: 10px;
 	line-height: 1.3em;
 }
 
@@ -696,7 +697,7 @@ span.tooltip:after {
 	padding: 65px;
 	padding-top: 56px;
 	margin: 0;
-	width: 31%;
+	width: 27%;
 	color: #FFFFFF;
 	display: inline-block;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
