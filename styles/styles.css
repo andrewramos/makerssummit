@@ -10,7 +10,6 @@ body {
 
 * {
 	-webkit-font-smoothing: antialiased;
-
 }
 
 input:focus,
@@ -20,17 +19,11 @@ button:focus {
     outline: none;
 }
 
-h1 {
-
-}
-
 h2 {
 	margin: 0;
 	padding: 0;
 	color: #B98D14;
 	font-size: 22px;
-		/*font-size: 22px;
-*/
 }
 
 h3 {
@@ -64,14 +57,15 @@ em {
 	font-style: normal;
 }
 
-/*.video .one .two .three {
-	display: inline-block;
-} 
-*/
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
+
+
+/*——— MAIN NAVIGATION ———*/
+
+
 
 nav {
 	height: 43px;
@@ -144,19 +138,13 @@ span.tooltip:after {
       left: 50px;
 }
 
-/*.active {
-	color: #2F6458;
-
-}*/
-
 
 /*——— CONFERENCE ———*/
 
 
 
 .main-header {
-/*	width: 100%;
-*/	background-color: #fff;
+	background-color: #fff;
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 0px 0 10px 0;
@@ -166,7 +154,6 @@ span.tooltip:after {
 .logo {
 	width: 250px;
 }
-
 
 .intro {
 	color: #4FC0A6;
@@ -183,7 +170,6 @@ span.tooltip:after {
 	font-weight: bold;
 	font-style: uppercase;
 }
-
 
 .date {
 	text-align: center;
@@ -251,6 +237,11 @@ span.tooltip:after {
 	background-color: #74C5B3;
 }
 
+
+/*——— VIDEO ———*/
+
+
+
 .video {
 	background-color: #fff;
 	margin-right: 0px;
@@ -264,13 +255,6 @@ span.tooltip:after {
 	color: #B98D14;
 	font-size: 18px;
 }
-
-/*.text p {
-	margin: 5px 0 0 0;
-	padding: 0;
-	color: #92772C;
-	font-size: 14px;
-}*/
 
 .text {
 	padding: 30px;
@@ -289,6 +273,9 @@ span.tooltip:after {
 .image-thumb:hover {
 	/*opacity: 0.95;*/
 }
+
+/*——— KEYNOTE ———*/
+
 
 .keynote {
 	background-color: #fff;
@@ -327,8 +314,7 @@ span.tooltip:after {
 	margin: 5px 0 0 0;
 	padding: 0 50px;
 	color: #92772C;
-/*	font-size: 14px;
-*/	text-align: center;
+	text-align: center;
 	line-height: 1.4em;
 }
 
@@ -378,15 +364,9 @@ span.tooltip:after {
 	text-decoration: none;
 }
 
-/*.jim {
-	background-image: url(../images/jim-gaffigan.jpg);
-}
 
-.tpain {
-	background-image: url(../images/tpain.jpg);
-}
-*/
-/*———————————————————————————————————————————*/
+/*——— PANEL ———*/
+
 
 .panel {
 	background-color: #D3FFF5;
@@ -419,75 +399,10 @@ span.tooltip:after {
 }
 
 
-
-/*
-.hr {
-	height: 1px;
-	background: #F5F1D9;
-	width: 100%;
-	font-size: 1px;
-	margin-top: 22px;
-}
-*/
-
-/*.panel {
-/*	height: 350px;
-*/	/*background-color: #fff;
-}*/
-
-/*.panel img {
-	margin: 30px 100px 0 100px;
-	height: 25px;
-	width: 250px;
-}*/
-
-/*.panel div {
-	margin: 0px 10px 0px 30px;
-}
-*/
-/*.panel h2 {
-	margin: 0px 0 5px 0;
-	padding: 0;
-	color: #92772C;
-	font-size: 18px;
-}
-*/
+/*——— EVENTS / EXTRAS ———*/
 
 
 
-/*.panel h3 {
-	color: #B98D14;
-	font-size: 18px;
-	margin: 15px 20px 0px 0px;
-}
-
-.panel p {
-	margin: 0px 0 0 0;
-	padding: 0 0;
-	color: #92772C;
-	font-size: 14px;
-}
-
-.hr {
-	height: 1px;
-	background: red;
-	width: 100%;
-	font-size: 1px;
-}*/
-
-
-/*.workshops h2 {
-	margin: 50px 0 0 50px;
-	padding: 0;
-	color: #1E5858;
-	font-size: 22px;
-}
-
-.workshops p {
-	margin: 5px 0px 0 50px;
-	width: 250px;
-}
-*/
 .events {
 	background-color: #fff;
 	position: relative;
@@ -569,7 +484,10 @@ span.tooltip:after {
 	opacity: 0.8;
 }
 
-/*—————————*/
+
+/*——— WORKSHOPS ———*/
+
+
 
 .workshop h2, .workshop p, .workshop h3 {
 	color: #749B9B;
@@ -614,52 +532,10 @@ span.tooltip:after {
 	text-align: center;
 }
 
-/*	-webkit-transition: all 0.2s ease;
-	   -moz-transition: all 0.2s ease;
-	    -ms-transition: all 0.2s ease;
-	     -o-transition: all 0.2s ease;
-	        transition: all 0.2s ease;
-.workshops:hover {
-	opacity: 0.95;
-}
-*/
+
+/*——— VENUE ———*/
 
 
-/*
-
-.workshop-options {
-	background-size: 100% 100%;
-	width: 100px;
-	height: 100px;
-	background-color: #fff;
-	border-radius: 100px;
-	margin: 50px;
-	margin-left: 0px;
-}
-
-
-.option1 {
-	background-image: url(../images/ron.png);
-.option2 {
-	background-image: url(../images/harry.png);
-}
-
-.option3 {
-	background-image: url(../images/gilly.png);
-}
-
-.option4 {
-	background-image: url(../images/justin.png);
-}
-}*/
-
-
-/*.events {
-	height: 519px;
-	display: inline-block;
-	background-color: #fff;
-}
-*/
 
 .venue {
 	height: 480px;
@@ -672,7 +548,6 @@ span.tooltip:after {
 	        transition: all 0.3s ease;
 }
 
-
 .huguenot {
 	height: 405px;
 	background: url(../images/footerimage3.jpg) #fff no-repeat;
@@ -681,12 +556,10 @@ span.tooltip:after {
 	font-size: 10px;
 	font-weight: lighter;
 	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3s);
-
 }
 
 .venue:hover {
 	-webkit-filter: grayscale(0.5);
-
 }
 
 .address {
@@ -703,8 +576,7 @@ span.tooltip:after {
 .link {
 	display: inline-block;
 	color: #B98D14;
-/*	text-shadow: 0px 0px 5px rgba(0,0,0,0.1), 0px 1px 1px rgba(0,0,0,0.2);
-*/	margin: 20px;
+	margin: 20px;
 	text-decoration: none;
 	width: 230px;
 }
@@ -726,13 +598,10 @@ span.tooltip:after {
 	opacity: 0.5;
 }
 
-
 .address:hover {
 	/*opacity: 1;*/
 	background-color: #FDFAE8;
-
 }
-
 
 .venue h2 {
 	text-align: center;
@@ -807,7 +676,7 @@ span.tooltip:after {
 }
 
 
-/*——— CRAFT PARTY ———*/
+/*——— CRAFT PARTY PAGE ———*/
 
 
 
@@ -821,18 +690,6 @@ span.tooltip:after {
 	position: relative;
 }
 
-/*.craft-header:after {	
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  content: '';
- 
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}*/
-
-
 .craft-header h1 {
 	font-size: 50px;
 	line-height: 1.2em;
@@ -844,7 +701,6 @@ span.tooltip:after {
 	display: inline-block;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: lighter;
-
 }
 
 .craft-button {
@@ -874,37 +730,9 @@ span.tooltip:after {
 }
 
 
+/*——— SLIDESHOW ———*/
 
-/*.craft-party .party {
-	margin-top: 0;
-}*/
 
-/*.craft-party {
-	margin: 0;
-	padding: 0;
-	margin-top: 262px;
-	margin-right: 30px;
-	float: right;
-
-}
-*/
-/*.craft-party {
-	color: #1E6454;
-	background-color: #7DCCBA;
-	margin-left: 20px;
-	position: absolute;
-	right: 30px;
-	bottom: 30px;
-	-webkit-transition: all 0.2s ease;
-	   -moz-transition: all 0.2s ease;
-	    -ms-transition: all 0.2s ease;
-	     -o-transition: all 0.2s ease;
-	        transition: all 0.2s ease;
-}*/
-
-/*.craft-party:hover {
-	background-color: #74C5B3;
-}*/
 
 .slideshow {
 	height: 432px;
@@ -928,11 +756,6 @@ span.tooltip:after {
 	position:absolute; 
 	left:0; 
 	top:0; 
-/*	-webkit-transition: all 0.3s ease;
-	   -moz-transition: all 0.3s ease;
-	    -ms-transition: all 0.3s ease;
-	     -o-transition: all 0.3s ease;
-	        transition: all 0.3s ease;*/
 }
 
 .fadein img:hover {
@@ -943,7 +766,6 @@ span.tooltip:after {
 	     -o-transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
 }
-
 
 .about .intro {
 	color: #4FC0A6;
@@ -964,7 +786,6 @@ span.tooltip:after {
 	line-height: 1.5em;
 	margin-top: 11px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 .about {
@@ -1007,7 +828,7 @@ span.tooltip:after {
 }
 
 
-/*——— CRAFT PARTY ———*/
+/*——— SCHEDULE PAGE ———*/
 
 
 
@@ -1032,6 +853,8 @@ span.tooltip:after {
 
 
 /*——— STRUCTURE ———*/
+
+
 
 .full{
 	width: 100%;
@@ -1078,15 +901,9 @@ span.tooltip:after {
 	opacity: 1;
 }
 
-.sponsors a:hover {
-}
-
-
-
 .sponsors {
 	margin-top: 20px;
 	text-align: center;
-
 }
 
 .sponsors img {
@@ -1136,9 +953,6 @@ span.tooltip:after {
 	color: #E6CB5D;
 }
 
-/*.bottom .contact a {
-}*/
-
 footer {
 	bottom: 30px;
 	background-color: #fff;
@@ -1157,16 +971,5 @@ footer p {
   clear: both;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*——— FIN ———*/
 
