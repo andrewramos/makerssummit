@@ -116,6 +116,11 @@ nav a:hover {
 	color: #2F6458;
 }
 
+nav a:active, nav a:focus {
+	color: #2F6458;
+
+}
+
 
 /*——— CONFERENCE ———*/
 
