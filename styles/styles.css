@@ -1020,6 +1020,7 @@ span.tooltip:after {
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 0px 0 10px 0;
+	margin-bottom: 250px;
 	position: relative;
 }
 
