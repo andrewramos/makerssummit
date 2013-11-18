@@ -192,7 +192,7 @@ span.tooltip:after {
 	width: 216px;
 	font-size: 16px;
 	line-height: 1.3em;
-	margin: 30px auto;
+	margin: 40px auto;
 	margin-bottom: 0;
 	font-weight: normal;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -208,11 +208,10 @@ span.tooltip:after {
 	font-weight: 700;
 	font-weight: bold;
 	font-style: uppercase;
-	display: inline-block;
+	float: left;
 	padding: 20px 40px;
 	border-radius: 5px;
 	text-decoration: none;
-	margin-top: 30px;
 	color: #6B5718;
 	background-color: #DFB43F;
 	-webkit-transition: all 0.2s ease;
@@ -224,6 +223,17 @@ span.tooltip:after {
 
 .button:hover {
 	background-color: #DAAF3A;
+}
+
+.conf {
+	margin-top: 30px;
+}
+
+.conf p {
+	display: inline-block;
+	width: 200px;
+	padding: 9px;
+	margin-left: 7px;
 }
 
 .party {
@@ -282,11 +292,11 @@ span.tooltip:after {
 
 .keynote {
 	background-color: #fff;
-	height: 814px;
+	height: 790px;
 }
 
 .illustration img {
- 	margin: 100px auto 0 auto;
+ 	margin: 80px auto 0 auto;
 	display: block;
 }
 
@@ -323,7 +333,7 @@ span.tooltip:after {
 }
 
 .speakers {
-	margin: 65px 30px;
+	margin: 50px 30px;
 }
 
 .name {
@@ -380,8 +390,9 @@ span.tooltip:after {
 
 .panel {
 	background-color: #D3FFF5;
-	padding-bottom: 30px;
+	padding-top: 56px;
 	text-align: center;
+	height: 333px;
 }
 
 .panel img {
@@ -390,7 +401,7 @@ span.tooltip:after {
 }
 
 .panel .text {
-	padding: 0	30px;
+	padding: 10px 40px 0 40px;
 }
 
 .panel p {
@@ -550,8 +561,12 @@ span.tooltip:after {
 	color: #B98D14;
 }
 
-.event-options:hover {
-	/*opacity: 0.95;*/
+.event-options a {
+	opacity: 1;
+}
+
+.event-options a:hover {
+	opacity: 0.8;
 }
 
 /*—————————*/
@@ -583,7 +598,7 @@ span.tooltip:after {
 .workshop .text {
 	width: 460px;
 	text-align: center;
-	margin: 30px auto 0 auto;
+	margin: 10px auto 0 auto;
 	padding-bottom: 30px;
 }
 
@@ -660,12 +675,12 @@ span.tooltip:after {
 
 .huguenot {
 	height: 405px;
-	background: url(../images/footerimage2.png) #fff no-repeat;
+	background: url(../images/footerimage3.jpg) #fff no-repeat;
 	text-align: left;
 	color: #000;
 	font-size: 10px;
 	font-weight: lighter;
-	box-shadow: inset 0px -9px 5px -9px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3s);
 
 }
 
@@ -691,7 +706,17 @@ span.tooltip:after {
 /*	text-shadow: 0px 0px 5px rgba(0,0,0,0.1), 0px 1px 1px rgba(0,0,0,0.2);
 */	margin: 20px;
 	text-decoration: none;
-	width: 160px;
+	width: 230px;
+}
+
+.link p {
+	font-size: 16px; 
+}
+
+.link span {
+	font-size: 12px;
+	font-style: italic;
+	color: #B8B48E;
 }
 
 .address img {
@@ -787,7 +812,7 @@ span.tooltip:after {
 
 
 .craft-header {
-	background: url(../images/TBCPE-header2.png) #fff no-repeat 0 -87px;
+	background: url(../images/TBCPE-header2.jpg) #fff no-repeat 0 -87px;
 	width: 100%;
 	height: 310px;
 	display: inline-block;
@@ -814,7 +839,6 @@ span.tooltip:after {
 	padding: 65px;
 	padding-top: 56px;
 	margin: 0;
-	margin-right: 100%;
 	width: 31%;
 	color: #FFFFFF;
 	display: inline-block;
@@ -883,14 +907,14 @@ span.tooltip:after {
 }*/
 
 .slideshow {
-	height: 450px;
+	height: 432px;
 	display: inline-block;
 	position:relative; 
 	background-color: #fff;
 }
 
 .caption {
-	padding: 17px 38px;
+	padding: 25px 38px;
 	text-align: center;
 }
 
@@ -938,7 +962,7 @@ span.tooltip:after {
 	color: #4FC0A6;
 	font-size: 16px;
 	line-height: 1.5em;
-	margin-bottom: 20px;
+	margin-top: 11px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -969,9 +993,12 @@ span.tooltip:after {
 }
 
 .about h2 {
-	font-size: 40px;
+	font-size: 14px;
+	color: #4F8A7C;
 	font-weight: lighter;
 	margin-bottom: 10px;
+	text-transform: uppercase;
+	margin-top: -12px;
 }
 
 .about p {
