@@ -116,10 +116,38 @@ nav a:hover {
 	color: #2F6458;
 }
 
-.active {
+span.tooltip {
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      line-height: 20px;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(30, 100, 84);
+      background: rgb(255, 255, 255);
+      border: 4px solid rgb(255, 255, 255);
+      border-radius: 5px;
+      text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+
+span.tooltip:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 10px;
+      border-style: solid;
+      border-color: #FFFFFF transparent transparent transparent;
+      top: 44px;
+      left: 50px;
+}
+
+/*.active {
 	color: #2F6458;
 
-}
+}*/
 
 
 /*——— CONFERENCE ———*/
@@ -632,12 +660,12 @@ nav a:hover {
 
 .huguenot {
 	height: 405px;
-	background: url(../images/footerimage.png) #fff no-repeat;
+	background: url(../images/footerimage2.png) #fff no-repeat;
 	text-align: left;
 	color: #000;
 	font-size: 10px;
 	font-weight: lighter;
-	box-shadow: inset 0px -9px 3px -9px rgba(0,0,0,0.3);
+	box-shadow: inset 0px -9px 5px -9px rgba(0,0,0,0.5);
 
 }
 
