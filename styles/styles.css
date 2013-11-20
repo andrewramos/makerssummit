@@ -138,6 +138,10 @@ span.tooltip:after {
       left: 50px;
 }
 
+.active {
+	color: #2F6458;
+}
+
 
 /*——— CONFERENCE ———*/
 
@@ -518,16 +522,16 @@ span.tooltip:after {
 	width: 460px;
 	text-align: center;
 	margin: 10px auto 0 auto;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 .workshop .options {
 	margin: 0 45px;
-	margin-bottom: 45px;
+	margin-bottom: 22px;
 }
 
 .workshops {
-	margin: 20px 45px;
+	margin: 15px 45px;
 	width: 150px;
 	display: inline-block;
 	text-align: center;
@@ -936,22 +940,26 @@ span.tooltip:after {
 	left: -3px;
 }
 
-.bottom a {
+.bottom h3 {
 	opacity: 1;
+	margin-top: 20px;
 	text-decoration: none;
+	text-transform: uppercase;
 	display: inline-block;
 	color: #fff;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.bottom a:hover {
+.bottom h3:hover {
 	opacity: 0.7; 
 }
 
 .bottom .contact {
 	display: inline-block;
-	margin-left: 350px; 
+	margin-left: 320px; 
+	margin-top: 20px;
 	color: #E6CB5D;
+	width: 63%;
 }
 
 footer {
