@@ -926,6 +926,10 @@ span.tooltip:after {
 	opacity: 1;
 }
 
+.bottom a {
+	opacity: 1;
+}
+
 .bottom {
 	height: 160px;
 	width: 100%;
@@ -950,8 +954,8 @@ span.tooltip:after {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.bottom h3:hover {
-	opacity: 0.7; 
+.bottom a:hover {
+	opacity: 0.8; 
 }
 
 .bottom .contact {
