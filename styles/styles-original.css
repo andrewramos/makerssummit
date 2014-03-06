@@ -72,7 +72,7 @@ nav {
 	width: 930px;
 	background-color: #D6FAF2;
 	padding: 10px 0;
-	margin: 80px 15px -20px 15px;
+	margin: 80px 15px -25px 15px;
 }
 
 nav ul {
@@ -84,7 +84,7 @@ nav ul {
 nav li {
 	display: inline-block;
 	padding: 0px 60px 20px 60px;
-	border-right: solid rgba(97, 163, 180, 0.2) 1px;
+	border-right: solid rgba(115, 149, 158, 0.2) 1px;
 }
 
 nav li:last-child {
@@ -93,8 +93,8 @@ nav li:last-child {
 
 nav a {
 	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
 	font-weight: 700;
+	font-weight: normal;
 	text-transform: uppercase;
 	font-size: 16px;
 	color: #65A092;
@@ -172,7 +172,7 @@ span.tooltip:after {
 	font-style: normal;
 	font-weight: 700;
 	font-weight: bold;
-	text-transform: uppercase;
+	font-style: uppercase;
 }
 
 .date {
@@ -197,7 +197,7 @@ span.tooltip:after {
 	font-style: normal;
 	font-weight: 700;
 	font-weight: bold;
-	text-transform: uppercase;
+	font-style: uppercase;
 	float: left;
 	padding: 20px 40px;
 	border-radius: 5px;
@@ -300,26 +300,19 @@ span.tooltip:after {
 
 .keynote h1 {
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 55px;
 	line-height: normal;
-	color: #F1B82A;
+	color: #B98D14;
 	text-align: center;	
-	margin: 10px 0 -15px 0;
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
+	margin: 10px 0 -10px 0;
 }
 
 .keynote h2 {
 	color: #B98D14;
 	text-align: center;	
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: lighter;
 	margin-bottom: 10px;
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 400; 
-	font-style: normal;
 }
 
 .keynote p {
@@ -509,7 +502,7 @@ span.tooltip:after {
 
 }
 
-.workshop img, .s-panelists img {
+.workshop img {
 	background-size: 100% 100%;
 	width: 150px;
 	height: 150px;
@@ -715,42 +708,12 @@ span.tooltip:after {
 	font-weight: lighter;
 }
 
-.virb {
-	position: absolute;
-	top: 55px;
-	right: 50px;
-	opacity: .5;
-	color: #fff;
-	text-decoration: none;
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-weight: bold;
-	text-transform: uppercase;
-	height: 50px;
-	-webkit-transition: all 0.2s ease;
-	   -moz-transition: all 0.2s ease;
-	    -ms-transition: all 0.2s ease;
-	     -o-transition: all 0.2s ease;
-	        transition: all 0.2s ease;
-}
-
-.virb a:hover {
-	opacity: .85;
-}
-
-.virb img {
-	vertical-align: middle;
-	margin-left: 10px;
-	margin-top: -5px;
-}
-
 .craft-button {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-weight: bold;
-	text-transform: uppercase;
+	font-style: uppercase;
 	display: inline-block;
 	padding: 20px 40px;
 	border-radius: 5px;
@@ -869,69 +832,12 @@ span.tooltip:after {
 	line-height: 1.4em;
 }
 
-.placeholder {
-	background: url(../images/placeholder.png) #fff no-repeat 0 -87px;
-	width: 100%;
-	height: 445px;
-}
-
-
-
 
 /*——— SCHEDULE PAGE ———*/
 
 
 
 .schedule-header {
-	background: url(../images/ScheduleHeader.png) #fff no-repeat 0 -87px;
-	width: 100%;
-	height: 310px;
-	display: inline-block;
-	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
-	margin: 0px 0 10px 0;
-	position: relative;
-}
-
-.schedule-header h1 {
-	font-size: 50px;
-	line-height: 1.2em;
-	padding: 65px;
-	padding-top: 90px;
-	margin: 0;
-	width: 40%;
-	color: #FFFFFF;
-	display: inline-block;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: lighter;
-}
-
-.schedule-button {
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
-	/*font-style: uppercase;*/
-	display: inline-block;
-	padding: 20px 40px;
-	border-radius: 5px;
-	text-decoration: none;
-	color: #1E6454;
-	background-color: #7DCCBA;
-	position: absolute;
-	bottom: 50px;
-	right: 50px;
-	-webkit-transition: all 0.2s ease;
-	   -moz-transition: all 0.2s ease;
-	    -ms-transition: all 0.2s ease;
-	     -o-transition: all 0.2s ease;
-	        transition: all 0.2s ease;
-}
-
-.schedule-button:hover {
-	background-color: #74C5B3;
-}
-
-/*.schedule-header {
 	background: url(../images/schedule3.jpg) #fff no-repeat;
 	background-color: #fff;
 	width: 100%;
@@ -940,310 +846,13 @@ span.tooltip:after {
 	display: inline-block;
 	box-shadow: 0 0 5px rgba(106, 34, 14, 0.29);
 	margin: 0px 0 10px 0;
+	margin-bottom: 250px;
 	position: relative;
-}*/
-
-
-
-.schedule {
-	background-color: #D3FFF5;
-	padding-top: 1em; 
-	font-size: 20px;
-	padding-bottom: 27px;
 }
 
-.schedule h1 {
-	color: #668A88;
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 800; 
-	font-style: normal;
-}
-
-.schedule ul {
-	/*width: 20%;*/
-	list-style-type: none;
-	color: #76A59F;
-	margin: 0;
-	padding: 0;
-	/*margin-top: 50px;*/
-}
-
-.schedule li {
-	list-style-type: none;
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-/*.schedule li first-child {
-
-} 
-
-.schedule li last-child {
-	margin-bottom: 10px;
-}*/
-
-.activity, .times, .place {
-	display: inline-block;
-}
-
-.times {
-	width: 25%;
-	margin-left: 1em;
-	text-align: right;
-	font-style: italic;
-}
-
-.activity {
-	margin-left: .5em;
-	padding-left: .75em;
-	border-left: solid 2px #BFEEE3;
-}
-
-.activity a {
-	text-decoration: none;
-	color: #1E5E64;
-	padding-bottom: 2px;
-	border-bottom: solid 1px rgba(124, 191, 197, 0.43);}
-
-.times, .activity {
-	margin-top: 30px;
-}
-
-.activity ul {
-	color: #1E5E64;
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 500; 
-	font-style: normal;
-}
-
-.s-keynote {
-	height: 700px;
-	background-color: #fff;
-	padding-bottom: 25px;
-}
-
-.s-keynote h1 , .schedule h1 {
-	font-weight: regular;
-	font-size: 36px;
-	line-height: normal;
-	text-align: center;	
-	margin-bottom: 0;
-	margin-top: 40px;
-}
-
-.s-keynote h1 {
-	color: #B98D14;
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.s-keynote p {
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 500; 
-	font-style: italic;
-}
-
-.s-speakers {
-	margin: 0 30px;
-}
-
-.s-profile {
-	/*width: 100%;*/
-	/*margin: 0 62px;*/
-	display: inline-block;
-}
-
-.s-profile img {
-	background-size: 100% 100%;
-	width: 175px;
-	margin: 0 62px;
-	margin-top: 40px;
-	border-radius: 100px;
-}
-
-.s-experts {
-	/*height: 900px;*/
-	background-color: #fff;
-	text-align: center;
-	/*padding-bottom: 50px;*/
-}
-
-.s-experts .title {
-	text-align: center;
-	color: #B98D14;
-	padding: 28px 15px 25px 15px;
-	margin: 0;
-	background-color: #FAF4E2;
-	margin-bottom: 25px;
-}
-
-.s-experts h1 {
-
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 800; 
-	font-style: normal;
-	margin: 0;
-}
-
-.s-experts h2 {
-	margin-top: 10px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 300;
-	font-size: 18px;
-}
-
-.s-experts h3 {
-	margin-top: 10px;
-	font-weight: normal;
-	font-size: 16px;
-	padding: 0;
-	margin: 0;
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 500; 
-	font-style: italic;
-	padding-bottom: 10px;
-	border-bottom: solid 1px #FAF4E2;
-	width: 70%;
-	margin: 0 15%;
-}
-
-.s-panelists {
-	/*height: 500px;*/
-	background-color: #fff;
-}
-
-.panelists {
-	padding: 0 30px;
-	border-bottom: solid 1px #DDECE9;
-	padding-bottom: 50px;
-}
-
-.s-panelists .text {
-	text-align: center;
-	margin-top: 10px;
-	color: #7DCCBA;
-}
-
-.s-panelists .workshops {
-	margin: 0 10px;
-	text-align: center;
-}
-
-.s-panelists img {
-	width: 125px;
-	height: 125px;
-}
-
-.s-panelists h3, .s-panelists p, .s-panelists h2 {
-	margin: 0;
-	color: #668A88;
-}
-
-.s-panelists h2, .s-panelists p, .s-panelists a {
-	color: #7DCCBA;
-	text-decoration: none;
-	-webkit-transition: all 0.2s ease;
-	   -moz-transition: all 0.2s ease;
-	    -ms-transition: all 0.2s ease;
-	     -o-transition: all 0.2s ease;
-	        transition: all 0.2s ease;
-}
-
-.s-panelists a:hover {
-	color: #52A592;
-}
-
-.s-panelists h3, .s-panelists .text p {
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 500; 
-	font-style: italic;
-}
-
-.s-row {
-	/*height: 500px;*/
-	background-color: #fff;
-	padding: 40px 40px;
-}
-
-
-.resource img {
-	background-size: 100% 100%;
-	width: 200px;
-	/*margin-top: 20px;*/
-	/*border-radius: 100px;*/
-}
-
-.resource {
-	margin: 20px 38px;
-	display: inline-block;
-
-}
-
-.s-row h2, .s-row p {
-	text-align: center;
-	width: 70%;
-	margin: 0 auto;
-	font-size: 22px;
-}
-
-.s-row p {
-	margin-bottom: 30px;
-}
-
-.resource p {
-	font-size: 14px;
-	margin: 0;
-	width: 100%;
-	font-style: italic;
-}
-
-.s-row h2 {
-	font-size: 36px;
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 800; 
-	font-style: normal;
-}
-
-.s-partners {
-	/*height: 320px;*/
-	background-color: #fff;
-	/*padding: 20px;*/
-	/*display: inline-block;*/
-	text-align: center;
-	padding-bottom: 30px;
-}
-
-.s-partners img {
-	display: inline-block;
-	margin: 15px;
-}
-
-.s-partners .top-row {
-	margin-left: 30px;
-	margin-top: 35px;
-}
-
-.s-logos {
-	padding: 27px 10px 0px 10px;
-}
-
-.s-logos h2, {
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 800; 
-	font-style: normal;
-	text-align: center;
-	margin: 1em 0;
-	font-size: 24px;
-	vertical-align: middle;
-	color: #1E5E64;
-}
-
-.archer {
-	font-family: 'Archer SSm A', 'Archer SSm B'; 
-	font-weight: 700; 
-	font-style: normal;	
+.schedule-header h1 {
+	padding: 100px 0;
+	color: #242003;
 }
 
 
@@ -1303,7 +912,7 @@ span.tooltip:after {
 }
 
 .sponsors img {
-	margin: 25px 30px;
+	margin: 0 48px;
 	vertical-align: middle;
 	opacity: .8;
 	-webkit-transition: all 0.2s ease;
